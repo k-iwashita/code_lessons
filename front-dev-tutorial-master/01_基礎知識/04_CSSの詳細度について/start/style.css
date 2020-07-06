@@ -1,0 +1,12 @@
+.parent {
+  color: blue;
+}
+
+
+span{
+  color: purple;
+}
+
+.parent span {
+  color: red;
+}
