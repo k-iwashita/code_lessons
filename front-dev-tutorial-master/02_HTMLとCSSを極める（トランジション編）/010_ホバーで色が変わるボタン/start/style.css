@@ -7,8 +7,15 @@
   font-weight: 600;
   cursor: pointer;
   margin: 50px 0;
+  /* 第4引数は遅延時間 */
+  transition: all 0.3s ease 0.3s;
 }
 
 #container {
   text-align: center;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
 }
