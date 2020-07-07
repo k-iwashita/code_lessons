@@ -1,0 +1,25 @@
+$cWhite: white;
+$cBlack: black;
+
+#container {
+  text-align: center;
+}
+
+.btn {
+  background-color: $cWhite;
+  color:$cBlack;
+  border: 1px solid $cBlack;
+  padding: 10px 40px;
+  /* １００-900で値を取る */
+  font-weight: 600;
+  cursor: pointer;
+  margin: 50px 0;
+  /* 第4引数は遅延時間 */
+  transition: all 0.3s ease 0.3s;
+
+  // &を使うことで、ネストをつけることができる
+  &:hover {
+    background-color: $cBlack;
+    color: $cWhite;
+  }
+}
